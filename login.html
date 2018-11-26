@@ -1,0 +1,44 @@
+<html>
+<head>
+      <title>Struktur Organisai</title>
+      <link rel="stylesheet" type="text/css" href="style_login.css">
+    </head>
+<body>
+    <div id="utama"> 
+      <div class="header"> 
+        <div class="header_isi"> 
+          <div class="gambar"> 
+
+<form name='biodata' method='post' action='tutor.html'>
+<div class="welcomee">WELCOME</div>
+<input type="text" name="username" placeholder="Please Enter your e-mail" class="login_regis">     <br /> 
+<input type="password" name="password" placeholder="Password" class="login_regis"> <br /> 
+<input type='button' name="Login" onclick="cek();"  value='Login' class='tombol_login'>
+</form>
+
+<script type="text/javascript">
+ function cek(){
+  var username=document.biodata.username.value;
+            username=username.toLowerCase();
+  var password=document.biodata.password.value;
+        password=password.toLowerCase();
+  var msg  = confirm("Apakah Anda yakin ?");
+    if(msg==true){
+    window.location="home.html";  
+    }
+    else{
+    window.location=".html";
+    }
+    }
+    </script>
+
+</div> 
+
+      </div> 
+
+    
+    </div> 
+</center>
+
+</body>
+</html>

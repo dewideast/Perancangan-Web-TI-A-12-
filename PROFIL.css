@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: serive ;
+
+	
+}
+body{
+	background : url('images/header-unejacid-compressor.jpg') no-repeat scroll;
+	background-size: 100% 100%;
+	min-height: 720px;
+}
+
+.header{
+	background-color: rgb(119, 136, 153);
+	width: 100%;
+	height: 100px;
+	border: 0px solid;
+
+}
+.logo{
+	width: 80px;
+	height: 80px;
+	margin: 1%;
+	float: left;
+
+
+}
+img{
+	margin: 10%;
+	width: 95%;
+	height:80%;
+
+}
+.title{
+	width: 50%;
+	height: 50px;
+	margin: 2%;
+	margin-left: 2px;
+	float: left;
+	font-size: 10px;
+	line-height: 25px;
+	
+}
+.menu {
+	width: 100%;
+	height: 40px;
+	background-color: lightgrey;
+}
+.menu ul a{
+	text-decoration:none;
+	position: relative;
+}
+.menu ul li{
+	width: 100px;
+	height: 40px;
+	float: left;
+	list-style: none;
+	text-align: center;
+	line-height: 40px;
+	position: relative;
+}
+.menu ul li:hover{
+	position: relative;
+	background-color: white; 
+}
+.menu ul li ul{
+	display: none;
+	position: absolute;
+    left: 0;
+    top: 100%;
+}
+.menu ul li:hover ul{
+	display: block;
+}
+.menu ul li ul li{
+	background-color: lightgrey;
+}
+
+
+
+.isi{
+	width: 900px;
+	padding: 0px;
+	background-color: rgb(240, 230,140);
+	margin-left: 170px;
+	text-align: justify;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-top: 0px;
+	font-family: sans-serif;
+
+}
+.judull{
+	width: 900px;
+	padding: 50px;
+	background-color: rgb(240, 230,140);
+	margin-left: 170px;
+	text-align: center;
+	margin-top: 80px;
+
+}
